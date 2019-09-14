@@ -1,0 +1,8 @@
+{
+  "short_name": "react-menu-tree",
+  "name": "react-menu-tree",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
