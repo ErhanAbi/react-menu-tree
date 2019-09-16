@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 
 import { HighlightedMenuOption } from "../highlightedMenuOption.";
 
-describe(HighlightedMenuOption, () => {
+describe("HighlightedMenuOption", () => {
   it("renders text without highlights if no match found", () => {
     const wrapper = renderer
       .create(
