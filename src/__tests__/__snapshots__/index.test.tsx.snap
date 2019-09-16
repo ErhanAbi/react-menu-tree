@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders menu based on the given list and highlights the selected menu item 1`] = `
+<div
+  className={undefined}
+>
+  <input
+    className={undefined}
+    onChange={[Function]}
+    placeholder="Search menu..."
+    type="text"
+    value=""
+  />
+  <ul
+    className={undefined}
+  >
+    <li>
+      <a
+        className=""
+        href="/getting-started"
+      >
+        Getting started
+      </a>
+      <ul
+        className={undefined}
+      >
+        <li>
+          <a
+            className=""
+            href="/getting-started/first"
+          >
+            First
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/installation"
+          >
+            Installation
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/site-preparation"
+          >
+            Site preparation
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/creating-your-site"
+          >
+            Creating your site
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/publishing-your-site"
+          >
+            Publishing your site
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a
+        className=""
+        href="/guides"
+      >
+        Guides
+      </a>
+      <ul
+        className={undefined}
+      >
+        <li>
+          <a
+            className=""
+            href="/guides/adding-a-blog"
+          >
+            Adding a Blog
+          </a>
+          <ul
+            className={undefined}
+          >
+            <li>
+              <a
+                className=""
+                href="/guides/adding-a-blog/first"
+              >
+                First
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/custom-pages"
+          >
+            Custom Pages
+          </a>
+          <ul
+            className={undefined}
+          >
+            <li>
+              <a
+                className=""
+                href="/guides/custom-pages/first"
+              >
+                First
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/enabling-search"
+          >
+            Enabling Search
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/navigation-and-sidebars"
+          >
+            Navigation and Sidebars
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/trans-and-nav"
+          >
+            Translations & Localization
+          </a>
+        </li>
+        <li>
+          <a
+            className={undefined}
+            href="/guides/versioning"
+          >
+            Versioning
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Menu renders menu based on the given list of menu items 1`] = `
+<div
+  className={undefined}
+>
+  <input
+    className={undefined}
+    onChange={[Function]}
+    placeholder="Search menu..."
+    type="text"
+    value=""
+  />
+  <ul
+    className={undefined}
+  >
+    <li>
+      <a
+        className=""
+        href="/getting-started"
+      >
+        Getting started
+      </a>
+      <ul
+        className={undefined}
+      >
+        <li>
+          <a
+            className=""
+            href="/getting-started/first"
+          >
+            First
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/installation"
+          >
+            Installation
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/site-preparation"
+          >
+            Site preparation
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/creating-your-site"
+          >
+            Creating your site
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/getting-started/publishing-your-site"
+          >
+            Publishing your site
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a
+        className=""
+        href="/guides"
+      >
+        Guides
+      </a>
+      <ul
+        className={undefined}
+      >
+        <li>
+          <a
+            className=""
+            href="/guides/adding-a-blog"
+          >
+            Adding a Blog
+          </a>
+          <ul
+            className={undefined}
+          >
+            <li>
+              <a
+                className=""
+                href="/guides/adding-a-blog/first"
+              >
+                First
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/custom-pages"
+          >
+            Custom Pages
+          </a>
+          <ul
+            className={undefined}
+          >
+            <li>
+              <a
+                className=""
+                href="/guides/custom-pages/first"
+              >
+                First
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/enabling-search"
+          >
+            Enabling Search
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/navigation-and-sidebars"
+          >
+            Navigation and Sidebars
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/trans-and-nav"
+          >
+            Translations & Localization
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/guides/versioning"
+          >
+            Versioning
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+`;

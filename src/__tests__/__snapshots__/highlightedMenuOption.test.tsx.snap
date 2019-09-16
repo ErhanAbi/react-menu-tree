@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders text with highlight if text was found 1`] = `
+Array [
+  "",
+  <span
+    className="highlight undefined"
+  >
+    Lazy Fox
+  </span>,
+  " Hiding",
+]
+`;
+
+exports[`renders text without highlights if no match found 1`] = `"Some Text"`;

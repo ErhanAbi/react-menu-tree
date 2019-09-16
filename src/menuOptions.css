@@ -1,0 +1,26 @@
+.menu-options {
+  margin: 0.75em;
+  padding-left: 0.25em;
+
+  line-height: 1.25;
+  list-style: none;
+}
+
+.menu-options a {
+  display: block;
+  border-radius: 4px;
+  padding: 0.5em 0.75em;
+
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.menu-options a.selected {
+  background-color: #3273dc;
+  color: #fff;
+}
+
+.menu-options a:not(.selected):hover {
+  background-color: #f5f5f5;
+}
+
