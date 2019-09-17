@@ -1,5 +1,5 @@
 import React from "react";
-import { dataModel } from "./menuOptions";
+import { dataModel } from "./menuData";
 
 import { Menu } from "react-menu-tree";
 
