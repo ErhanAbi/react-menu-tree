@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders text with highlight if text was found 1`] = `
+exports[`HighlightedMenuOption renders text with highlight if text was found 1`] = `
 Array [
   "",
   <span
@@ -12,4 +12,4 @@ Array [
 ]
 `;
 
-exports[`renders text without highlights if no match found 1`] = `"Some Text"`;
+exports[`HighlightedMenuOption renders text without highlights if no match found 1`] = `"Some Text"`;
