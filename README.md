@@ -61,6 +61,42 @@ class Example extends React.Component {
 }
 ```
 
+## Development Mode
+
+The setup for development is kind of hacky, but the following steps should let you run both the demo app and the tests.
+
+```bash
+cd <project-root-folder>;
+
+# install and link the library
+yarn install;
+yarn link;
+
+cd demo;
+yarn install;
+yarn link react-menu-tree;
+
+cd ../; # back to project root
+# this is done to prevent duplication of react library
+# when running the demo
+npm link ./demo/node_modules/react;
+npm link ./demo/node_modules/react-dom;
+```
+
+The issue we're "hacking" around is described by:
+
+#### 1. The library needs to have `react` and `react-dom` declared as peer deps
+
+In production (when it's installed from npm), the library has `react` and `react-dom` declared as peer deps and should work just fine since it would be installed in a `react` project.
+
+Also, when importing the library in the `demo` app, the library needs to behave just like in prod env, thus it needs to use `react` and `react-dom` from the demo app.
+
+#### 2. For testing the library, however, `react` and `react-dom` needs to be installed.
+
+This can be achieved by declaring the 2 deps as dev dependencies. But when doing so, we'll face the 1st issue from above.
+
+That's why we have to `npm link` those deps.
+
 ## License
 
 MIT © [ErhanAbi](https://github.com/ErhanAbi)
