@@ -83,7 +83,34 @@ npm link ./demo/node_modules/react;
 npm link ./demo/node_modules/react-dom;
 ```
 
-The issue we're "hacking" around is described by:
+Or you can use the `dev_install.sh` script to do the above in a single command.
+
+```bash
+
+cd <project-root>;
+bash dev_install.sh;
+
+```
+
+## Running the project
+
+### Demo App
+
+```bash
+cd <project-root>/demo;
+yarn start;
+```
+
+### Running tests
+
+```bash
+cd <project-root>;
+yarn test;
+```
+
+---
+
+The issue we're "hacking" around when installing the project in dev mode is described by:
 
 #### 1. The library needs to have `react` and `react-dom` declared as peer deps
 
